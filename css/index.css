@@ -233,7 +233,7 @@ header p{
 }
 .price p{
     float: left;
-    width: 1.6rem;
+    width: 1.725rem;
     overflow: hidden;
     text-align: right;
 }
@@ -257,7 +257,7 @@ header p{
     text-align: center;
 }
 .price a{
-    width:2.0rem;
+    width:1.875rem;
     height:0.7rem;
     line-height:0.7rem;
     float: left;
