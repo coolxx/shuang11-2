@@ -1,85 +1,84 @@
-*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
-html{font-size: 20px;background: #541774;}
+*{margin: 0;padding: 0;font-family: "微软雅黑"}
+body,html{
+	width: 720px;
+	margin: 0 auto;
+	color: #333333;
+    background: #541774;
+}
 li{ list-style:none; }
 a{ text-decoration:none; }
 img{ vertical-align:top; }
 input{outline: none}
-input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
 header{
-	width: 18.0rem;
-	height: 1.25rem;
+	width: 720px;
+	height: 50px;
 	overflow: hidden;
 	background: #1b1b1b;
 }
 header img{
 	float: left;
-	margin-top: 0.1rem;
-	margin-left: 0.25rem;
-	width: 1.975rem;
+	margin-top: 4px;
+	margin-left: 10px;
+	width: 79px;
 }
 header h1{
 	color: #fff;
 	float: left;
-	margin-top: 0.5rem;
-	margin-left: 0.25rem;
-	font-size: 0.45rem;
-	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
 }
 header p{
-	font-size: 0.45rem;
+	font-size: 15px;
 	height: 100%;
-	padding-left: 0.875rem;
+	padding-left: 35px;
 	color: #fff;
 	font-weight: bold;
 	float: right;
-	margin-right: 0.2rem;
-	line-height: 1.25rem;
+	margin-right: 8px;
+	line-height: 50px;
 	background: url(../images/phone.png) no-repeat 0 center;
-	background-size: 0.55rem 0.65rem;
-	padding-top: 0.125rem
 }
 .banner{
     overflow: hidden;
 }
 .banner img{
     display: block;
-    width: 18.0rem;
+    width: 720px;
 }
 .nav{
-    height:4.55rem;
+    height:182px;
     background: url("../images/nav.jpg") no-repeat center;
-    background-size: 18.0rem;
     position: relative;
     overflow: hidden;
 }
 .nav a{
     display: block;
     float: left;
-    margin-left:0.35rem;
-    width:4.075rem;
-    height: 3.325rem;
+    margin-left:14px;
+    width:163px;
+    height: 133px;
 }
 .nav img{
     position: absolute;
-    top:-3.75rem;
-    right:0.5rem;
-    width:3.75rem;
+    top:-150px;
+    right:20px;
+    width:150px;
 }
 .zg-main1{
     overflow: hidden;
-    padding-bottom:1.0rem;
+    padding-bottom:40px;
 }
 .main-tt{
-    height:2.4rem;
-    line-height:2.45rem;
+    height:96px;
+    line-height:98px;
     background: url("../images/main-tt.png") no-repeat center;
-    background-size: 16.675rem;
     text-align: center;
     font-size:0;
 }
 .main-tt b{
     display: inline-block;
-    font-size:1.0rem;
+    font-size:40px;
     color: #f6ff00;
     vertical-align: middle;
 }
@@ -87,72 +86,69 @@ header p{
     color: #ffffff;
 }
 .main-tt a{
-    font-size:0.45rem;
+    font-size:18px;
     vertical-align: middle;
     font-weight:normal;
-    padding-left:0.35rem;
-    margin-left:0.4rem;
+    padding-left:14px;
+    margin-left:16px;
     color: #f6ff00;
     background: url("../images/mo.png") no-repeat left center;
-    background-size: 0.2rem
 }
 .time{
-    height: 4.3rem;
+    height: 172px;
     background: url("../images/time.png") no-repeat center;
-    background-size: 15.05rem;
-    margin-top: 0.75rem;
+    margin-top: 30px;
     position: relative;
 }
 .time span{
     display: block;
-    width: 0.925rem;
-    height: 1.375rem;
-    font-size:1.0rem;
+    width: 37px;
+    height: 55px;
+    font-size:40px;
     color: #ffffff;
     text-align: center;
-    line-height:1.4rem;
+    line-height:56px;
     position: absolute;
-    top:0.9rem;
+    top:36px;
 }
 .time span:nth-child(1){
-    left:4.85rem;
+    left:194px;
 }
 .time span:nth-child(2){
-    left:5.9rem;
+    left:236px;
 }
 .time span:nth-child(3){
-    left:7.95rem;
+    left:318px;
 }
 .time span:nth-child(4){
-    left:9.0rem;
+    left:360px;
 }
 .time span:nth-child(5){
-    left:11.05rem;
+    left:442px;
 }
 .time span:nth-child(6){
-    left:12.1rem;
+    left:484px;
 }
 .m1-cc-box{
     overflow: hidden;
-    background: url("../images/show-bg.png") no-repeat center 1.15rem;
-    background-size: 17.475rem;
-    margin-top:0.75rem;
+    background: url("../images/show-bg.png") no-repeat center 46px;
+    margin-top:30px;
 }
 .m1-btn-box{
     overflow: hidden;
-    margin-left:0.7rem;
+    margin-left:28px;
 }
 .m1-btn-box li{
     float: left;
-    margin-left:0.15rem;
-    width:3.15rem;
-    height: 1.775rem;
-    line-height:1.8rem;
+    margin-left:6px;
+    width:126px;
+    height: 71px;
+    line-height:72px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border:2px solid #ffffff;
-    border-radius: 0.1rem;
+    border-radius: 4px;
     background: #ba5deb;
     text-align: center;
 }
@@ -160,58 +156,56 @@ header p{
     background: #e5004f;
 }
 .m1-btn-box li span{
-    font-size:0.6rem;
+    font-size:24px;
     font-weight:bold;
-    line-height:0.7rem;
+    line-height:28px;
     color: #ffffff;
     display: inline-block;
+    vertical-align: -14px;
 }
 .m1-show-box,.m2-show-box,.m3-show-box{
-    width: 17.5rem;
+    width: 700px;
     height:auto;
-    margin: 0.175rem auto;
+    margin: 7px auto;
     background: #fff799;
     overflow: hidden;
-    padding-bottom:0.25rem;
+    padding-bottom:10px;
     display: none;
 }
 .m1-show,.m2-show{
-    width:17.125rem;
+    width:685px;
     height:auto;
-    margin: 0.45rem auto 0;
+    margin: 18px auto 0;
     background: #37080a;
     overflow: hidden;
-    padding-bottom:0.25rem;
+    padding-bottom:10px;
 }
 .m1-show li,.m2-show li{
     float: left;
-    margin-left:0.375rem;
-    margin-top:0.5rem;
-    width: 5.225rem;
-    height: 4.575rem;
+    margin-left:15px;
+    margin-top:20px;
+    width: 209px;
+    height: 183px;
     background: url("../images/cc2.png") no-repeat center;
-    background-size: 5.25rem;
     position: relative;
 }
 .m2-show li{
-    background: url("../images/cc3.png") no-repeat center;
-    background-size: 5.25rem;
+    background: url("../images/cc3.png") no-repeat center; ;
 }
 .m1-show1 li{
     background: url("../images/cc1.png") no-repeat center;
-    background-size: 5.25rem;
 }
 .m1-show li > p,.m2-show li > p{
-    width: 5.25rem;
-    height: 3.05rem;
-    line-height:3.05rem;
+    width: 210px;
+    height: 122px;
+    line-height:122px;
     position: absolute;
     top:0;
     text-align: center;
 }
 .m1-show li > p span,.m1-show li > p a{
-    font-size:0.6rem;
-    line-height:0.75rem;
+    font-size:24px;
+    line-height:30px;
     color: #ffffff;
     font-weight:bold;
     display: inline-block;
@@ -220,25 +214,25 @@ header p{
 .m1-show2 li > p em{
     font-style: normal;
     font-weight:bold;
-    font-size:0.45rem;
+    font-size:18px;
 }
 .price{
-    width: 5.25rem;
-    height: 1.35rem;
-    line-height:1.35rem;
+    width: 210px;
+    height: 54px;
+    line-height:54px;
     overflow: hidden;
     position: absolute;
     bottom:0;
 }
 .price p{
     float: left;
-    width: 1.6rem;
+    width: 64px;
     overflow: hidden;
     text-align: right;
 }
 .price p span{
-    font-size:0.35rem;
-    line-height:0.45rem;
+    font-size:14px;
+    line-height:18px;
     display: inline-block;
     vertical-align: middle;
     color: #eb1d35;
@@ -249,108 +243,105 @@ header p{
     text-decoration: line-through;
 }
 .price > b{
-    width:1.6rem;
+    width:64px;
     float: left;
-    font-size:0.65rem;
+    font-size:26px;
     color: #eb1d35;
     text-align: center;
 }
 .price a{
-    width:2.0rem;
-    height:0.7rem;
-    line-height:0.7rem;
+    width:80px;
+    height:28px;
+    line-height:28px;
     float: left;
     color: #ffffff;
     font-weight:bold;
-    font-size:0.4rem;
+    font-size:16px;
     background: #eb1d35;
-    border-radius: 0.3rem;
+    border-radius: 12px;
     text-align: center;
-    margin-top:0.4rem;
+    margin-top:16px;
 }
 .m1-show li:nth-child(3) > p a span,.m1-show li:nth-child(4) > p a span{
-    font-size:0.45rem;
+    font-size:18px;
 }
 .m1-show3 li > a{
     position: absolute;
-    bottom:0.15rem;
-    width:3.35rem;
-    height:1.025rem;
-    line-height:1.05rem;
+    bottom:6px;
+    width:134px;
+    height:41px;
+    line-height:42px;
     text-align: center;
-    font-size:0.45rem;
+    font-size:18px;
     font-weight:bold;
     color: #ffffff;
     background: #eb1d35;
-    border-radius: 0.45rem;
-    left:1.0rem;
+    border-radius: 18px;
+    left:40px;
 }
 .price2{
-    width: 5.25rem;
-    height: 1.35rem;
-    line-height:1.35rem;
+    width: 210px;
+    height: 54px;
+    line-height:54px;
     overflow: hidden;
     position: absolute;
     bottom:0;
 }
 .price2 span{
-    width:2.5rem;
+    width:100px;
     text-align: center;
-    font-size:0.5rem;
+    font-size:20px;
     color: #eb1d35;
     font-weight:bold;
     float: left;
 }
 .price2 a{
     float: right;
-    margin-right: 0.1rem;
-    margin-top:0.3rem;
-    width: 2.6rem;
-    height:0.85rem;
-    line-height:0.85rem;
+    margin-right: 4px;
+    margin-top:12px;
+    width: 104px;
+    height:34px;
+    line-height:34px;
     text-align: center;
-    font-size:0.45rem;
+    font-size:18px;
     color: #ffffff;
     font-weight:bold;
     background: #eb1d35;
-    border-radius: 0.35rem;
+    border-radius: 14px;
 }
 .zg-main2{
     overflow: hidden;
-    padding-bottom:1.0rem;
+    padding-bottom:40px;
 }
 .m2-cc-box{
     overflow: hidden;
-    background: url("../images/show-bg.png") no-repeat center 0.725rem;
-    background-size: 17.5rem;
-    margin-top:0.95rem;
+    background: url("../images/show-bg.png") no-repeat center 29px;
+    margin-top:38px;
 }
 .m2-btn-box{
-    margin-left:0.5rem;
+    margin-left:20px;
     overflow: hidden;
 }
 .m2-btn-box li{
     float: left;
-    margin-left:0.175rem;
-    width: 2.825rem;
-    height: 1.35rem;
-    line-height:1.35rem;
+    margin-left:7px;
+    width: 113px;
+    height: 54px;
+    line-height:54px;
     background: url("../images/m2-btn.png") no-repeat center;
-    background-size: 2.825rem;
     text-align: center;
-    font-size:0.6rem;
+    font-size:24px;
     color: #541774;
     font-weight:bold;
 }
 .m2-btn-box li.act2{
-    width: 4.175rem;
-    height: 1.35rem;
+    width: 167px;
+    height: 54px;
     background: url("../images/m2-btn2.png") no-repeat center;
-    background-size: 4.175rem
 }
 .m2-show li > p span{
-    font-size:0.6rem;
-    line-height:0.75rem;
+    font-size:24px;
+    line-height:30px;
     color: #ffffff;
     font-weight:bold;
     display: inline-block;
@@ -358,36 +349,33 @@ header p{
 }
 .zg-main3{
     overflow: hidden;
-    padding-bottom:2.25rem;
+    padding-bottom:90px;
 }
 .m3-cc-box{
     overflow: hidden;
     background: url("../images/show-bg.png") no-repeat center top;
-    background-size: 17.5rem;
-    margin-top:0.775rem;
+    margin-top:31px;
 }
 .m3-show-box{
     display: block;
-    margin-top:0.8rem;
+    margin-top:32px;
 }
 .m3-show-box .m2-show li{
     background: url("../images/cc4.png") no-repeat center;
-    background-size: 5.25rem
 }
 .m3-show-box .m2-show li:nth-child(7) > p span{
-    font-size:0.55rem;
+    font-size:22px;
 }
 .m3-show-box .price > b{
-    text-indent: -249.975rem;
+    text-indent: -9999px;
     background: url("../images/1yuan.png") no-repeat center;
-    background-size: 0.775rem
 }
 .fix{
-    width: 18.0rem;
+    width: 720px;
     display: flex;
     position: fixed;
     bottom: 0;
-    height: 1.7rem;
+    height: 68px;
     z-index:9999;
 
 }
@@ -396,35 +384,33 @@ header p{
     flex:1;
     height: 100%;
     text-align: center;
-    line-height: 1.7rem;
-    font-size: 0.6rem;
+    line-height: 68px;
+    font-size: 24px;
     color: #fff;
     padding-left:1em;
 }
 .fix1{
     background: url(../images/fix1.png) no-repeat 20% center #000;
-    background-size: 1.15rem
 }
 .fix2{
     background: url(../images/fix2.png) no-repeat 25% center #e62929;
-    background-size: 1.525rem
 }
 .qr-right{
     position: fixed;
     top:50%;
     right:0;
-    margin-top:-1.575rem;
+    margin-top:-63px;
     z-index:9999;
 }
 .qr-right img{
-    width:3.75rem;
+    width:150px;
 }
 .qr-right-show{
     position: fixed;
     top:50%;
     left:50%;
-    margin-left:-3.0rem;
-    margin-top:-3.0rem;
+    margin-left:-120px;
+    margin-top:-120px;
     z-index:9999;
     display: none;
 }
