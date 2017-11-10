@@ -165,6 +165,7 @@ header p{
     line-height:0.7rem;
     color: #ffffff;
     display: inline-block;
+    vertical-align: -0.1rem;
 }
 .m1-show-box,.m2-show-box,.m3-show-box{
     width: 17.5rem;
@@ -421,10 +422,11 @@ header p{
 }
 .qr-right-show{
     position: fixed;
+    width: 5.0rem;
     top:50%;
     left:50%;
-    margin-left:-3.0rem;
-    margin-top:-3.0rem;
+    margin-left:-2.5rem;
+    margin-top:-2.5rem;
     z-index:9999;
     display: none;
 }
